@@ -24,6 +24,8 @@ The repository contains the code and data associated with the paper "Agent-based
 
 This repository contains the main notebook which was used to generate the data in the paper as well as the interactive simualtor in notebook form and as a .jl file.  
 
+To understand the workings of the model likely the interactive simulator code is probably the cleanest to read as it does not require all the plotting, measurement and parrellisation code. Extensions and your own plotting can likley be made by your friendly LLM of choice given this base. 
+
 ## Interactive Simulator 
 
 
