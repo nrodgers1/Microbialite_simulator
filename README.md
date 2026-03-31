@@ -50,9 +50,6 @@ The full notebook which was used to generate the results of the paper is also gi
 
 
 
-## Uploaded Data Files
-
-DESCRIBE THESE
 
 
 
@@ -62,9 +59,11 @@ We also included a version of the notebook which simply makes videos of the dyna
 
 
 
+## Uploaded Data Files
 
+Uploaded data files are stored in a the folder called Github Upload. The videos are given in one folder while the results of each of the two quantitative sweeps. 
 
-
+In the quantitative sweeps folder we have several objects. We have a .csv file which gives a unique label for every simulation and all the measured results for this simulation. This unqiue name is used to name a small .jpg file and a .hdf5 file which can be used to either visualise the results or replot them. We also do pairwise plots of all combinations of input variables and measurements for each quantative sweep.  
 
 
 
