@@ -27,7 +27,7 @@ This repository contains the main notebook which was used to generate the data i
 ## Interactive Simulator 
 
 
-The interactive simualtion allows you to interact with the model and change the parameters with without interfacing with the code. This can be down in two ways eitehr running the interactive notebook or running the .jl file from the command line/terminal. 
+The interactive simualtion allows you to interact with the model and change the parameters with without interfacing with the code. This can be down in two ways eitehr running the interactive notebook or running the .jl file from the command line/terminal. The relevant files are the ones names Interactive_Stromtalites
 
 In order to run either of these Julia must be installed. This is very easy to do and should only take a few minutes and can be done by following the instructions at https://julialang.org/downloads/ 
 
