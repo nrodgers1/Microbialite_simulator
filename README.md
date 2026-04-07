@@ -19,7 +19,7 @@
 
 
 
-The repository contains the code and data associated with the paper "Agent-based modelling of Microbialite Formation through Sedimentation and Precipitation Dynamics" by Niall Rodgers, Laurane Fogret, Mark Van Zulien, Sudha Rajamani and Sean McMahon. 
+The repository contains the code and data associated with the paper "Agent-based modelling of Microbialite Formation through Sedimentation and Precipitation Dynamics" by Niall Rodgers, Laurane Fogret, Mark Van Zulien, Sudha Rajamani, Henderson Cleaves and Sean McMahon. 
 
 
 This repository contains the main notebook which was used to generate the data in the paper as well as the interactive simualtor in notebook form and as a .jl file.  
