@@ -40,7 +40,7 @@ To run the .jl file simply launch the julia code by typing ""julia -i "path to .
 
 The simualtion should be quite responsive depending on how you setup the number of time steps per frame and your system. Julia should work on most machines so hopefully compatablity shoud not be a problem. 
 
-Runnig the simulation for the jupyter notebook jsut requires having julia linked to your jupyter envirnoment and then running all cells in the notebook and the simulation will begin. 
+Running the simulation for the jupyter notebook just requires having julia linked to your jupyter envirnoment and then running all cells in the notebook and the simulation will begin. 
 
 
 If you wish to modify the values or variables on the interactive sliders then the relevant lines at the end of the code in either the .jl file or in the notebook can be edited to any values you wish which respect the constraints of the model. Due to the way things are setup you can not change intial conditions intractively and these can be edited by changing the value in the parameter fucntion in the code. 
