@@ -1,4 +1,4 @@
-# Agent-based modelling of Microbialite Formation through Sedimentation and Precipitation Dynamics
+# Agent-based Modelling of Microbialite Formation through Sedimentation and Precipitation Dynamics
 
 
 
