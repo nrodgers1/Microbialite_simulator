@@ -16,7 +16,7 @@
 </video>
 
 
-ATTENION: There is currently a known bug where the automatic installation code defaults to the newest version of Agents.jl which is Agents V7 which introduced some syntax changes which break part of the code. If you would like the to run the code please run in Agents.jl V6.2.10 or manually change the sytax of ABM model calls. A refined version will be released when peer review is complete. This is a one line change to modify the automatic installer. 
+ATTENION: There is currently a known bug where the automatic installation code defaults to the newest version of Agents.jl which is Agents V7 which introduced some syntax changes which break part of the code. If you would like to run the code please run in Agents.jl V6.2.10 or manually change the sytax of ABM model calls. A refined version will be released when peer review is complete. This is a one line change to modify the automatic installer. 
 
 
 The repository contains the code and data associated with the paper "Agent-based modelling of Microbialite Formation through Sedimentation and Precipitation Dynamics" by Niall Rodgers, Laurane Fogret, Mark Van Zulien, Sudha Rajamani, Henderson Cleaves and Sean McMahon. 
