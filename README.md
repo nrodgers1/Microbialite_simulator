@@ -28,7 +28,7 @@ To understand the workings of the model likely the interactive simulator code is
 
 Manuscript has been submitted to EarthArxiv under the name given above.
 
-During the course of writing, submitting and review there was some version changes in Agents.jl caused some syntax changes to be needed. The folder of the paper code will work in Agents.jl 6.2.10 however some edits to the model calls mean the the most recent versions of Agents.jl 7.0.3 will crash. The changes are only minor syntax so all behaviour is mainatined. We give the folder of code which actually generated the results of the paper as well as in the main GitHub page code which has been updated and pinned to Agents.jl 7.0.3 and also has some updated terminology post peer review.
+During the course of writing, submitting and review there was some version changes in Agents.jl caused some syntax changes to be needed. The folder of the paper code will work in Agents.jl 6.2.10 however some edits to the model calls mean the the most recent versions of Agents.jl 7.0.3 will crash. The changes are only minor syntax so all behaviour is mainatined. We give the folder of code which actually generated the results of the paper as well as in the main GitHub page code which has been updated and pinned to Agents.jl 7.0.3 and also has some updated terminology after peer review. Both sets of code will behave identically with variable name changes and some function syntax being the only differences.
 
 
 
