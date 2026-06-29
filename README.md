@@ -16,7 +16,7 @@
 </video>
 
 
-ATTENTION: There is currently a known bug where the automatic installation code defaults to the newest version of Agents.jl which is Agents V7 which introduced some syntax changes which break part of the code. If you would like to run the code please run in Agents.jl V6.2.10 or manually change the sytax of ABM model calls. A refined version will be released when peer review is complete. This is a one line change to modify the automatic installer. 
+
 
 
 The repository contains the code and data associated with the paper "Agent-based modelling of Microbialite Formation through Sedimentation and Precipitation Dynamics" by Niall Rodgers, Laurane Fogret, Mark Van Zulien, Sudha Rajamani, Henderson Cleaves and Sean McMahon. 
@@ -28,6 +28,10 @@ To understand the workings of the model likely the interactive simulator code is
 
 Manuscript has been submitted to EarthArxiv under the name given above.
 
+During the course of writing, submitting and review there was some version changes in Agents.jl caused some syntax changes to be needed. The folder of the paper code will work in Agents.jl 6.2.10 however some edits to the model calls mean the the most recent versions of Agents.jl 7.0.3 will crash. The changes are only minor syntax so all behaviour is mainatined. We give the folder of code which actually generated the results of the paper as well as in the main GitHub page code which has been updated and pinned to Agents.jl 7.0.3 and also has some updated terminology post peer review.
+
+
+
 ## Interactive Simulator 
 
 
@@ -35,7 +39,7 @@ The interactive simualtion allows you to interact with the model and change the 
 
 In order to run either of these Julia must be installed. This is very easy to do and should only take a few minutes and can be done by following the instructions at https://julialang.org/downloads/ 
 
-When this is down the code needs to run and install the required packages [Agents, LinearAlgebra, Random, StatsBase, GLMakie] all .jl. This is cheked for automatically on the first run of the .jl file so the first run will take longer while things installed but then the code should start staight away after this. If you wish to disable this and install yourself this can be removed from the code. 
+When this is down the code needs to run and install the required packages [Agents, LinearAlgebra, Random, StatsBase, GLMakie] all .jl. This is cheked for automatically on the first run of the .jl file so the first run will take longer while things installed but then the code should start staight away after this. If you wish to disable this and install yourself this can be removed from the code. The main version of the code is pinned to Agents.jl 7.0.3.
 
 
 To run the .jl file simply launch the julia code by typing ""julia -i "path to .jl file" "" into your terminal or command prompt and this will start the code and the interaactive simulations should start in a new window. You can then set sleep to zero to stop pauses between timesteps, press run start the simulation and then reset the parameters as required.
